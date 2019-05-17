@@ -3,6 +3,20 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
+  
+    <link rel="icon" href="/img/whale.ico">
+  
+  
+<script type="text/javascript">
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?cd1292fdcc1db4944b938a7f980ae9be";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
@@ -32,6 +46,7 @@
 
   
 
+
 </head>
 </html>
 <body>
@@ -41,7 +56,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #F9690E"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -51,7 +66,7 @@
 		  <h1 class="header-author"><a href="/">Zhenqian Wang</a></h1>
 		</hgroup>
 		
-
+		<p class="header-subtitle">Java小将|Python小学生</p>
 		<nav class="header-menu">
 			<ul>
 			
@@ -64,7 +79,7 @@
 		<nav class="header-smart-menu">
     		
     			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">搜素</a>
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">搜索</a>
     			
             
     			
@@ -85,6 +100,9 @@
 		        
 					<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/jin-ji-de-wa-ha-ha-96/activities" title="zhihu"><i class="icon-zhihu"></i></a>
 		        
+					<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=6685607&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
+		        
+		        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25706282&auto=1&height=66"></iframe>
 			</div>
 		</nav>
 	</header>		
@@ -95,7 +113,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: #F9690E"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -124,6 +142,8 @@
 						<a class="weibo" target="_blank" href="https://weibo.com/5827937603/profile?is_all=1" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/jin-ji-de-wa-ha-ha-96/activities" title="zhihu"><i class="icon-zhihu"></i></a>
+			        
+						<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=6685607&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
 			        
 				</div>
 			</nav>
@@ -264,8 +284,8 @@
     <script>
         var now = new Date(); 
         function createtime() { 
-            var grt= new Date("02/19/2017 22:02:00");//此处修改你的建站时间或者网站上线时间 
-            now.setTime(now.getTime()+250); 
+            var grt= new Date("05/16/2019 20:02:00");//此处修改你的建站时间或者网站上线时间 
+            now.setTime(now.getTime()+0); 
             days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
             hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
             if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
@@ -275,7 +295,7 @@
             document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
             document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
         } 
-    setInterval("createtime()",250);
+    setInterval("createtime()",0);
     </script>
   </div>
 </footer>
@@ -326,7 +346,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">搜素</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">搜索</a></li>
       
         
       
@@ -453,9 +473,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
-  	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">目前湖南大学信息科学与工程学院在读博士&lt;br&gt;主要研究方向是机器学习，物联网等&lt;br&gt;欢迎大家前来交流&lt;br&gt;QQ号：6685607</div>
-  	  	
+  	  	//用下面的代码替换掉
+        
+          <div class="aboutme-wrap">
+            <div style="display:;">
+              <script type="text/javascript" src="https://api.lwl12.com/hitokoto/v1?encode=js&charset=utf-8"></script>
+              <p style="margin:0 20px 0 20px;">
+                <span id="lwlhitokoto">
+                  <script>
+                    lwlhitokoto();
+                  </script>
+                </span>
+              </p>
+              <p id="js-aboutme" style="margin:0 20px 0 20px;">&lt;br&gt;本人目前在湖南大学信息科学与工程学院读博&lt;br&gt;主要研究方向是机器学习，物联网等&lt;br&gt;欢迎各位大佬前来交流&lt;br&gt;QQ号：6685607</p>
+            </div>
+          </div>
+        
     	</section>
     
   </div>
