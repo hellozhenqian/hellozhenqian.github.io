@@ -20,15 +20,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Unstoppable</title>
+  <title>项目实战 -- 游戏框架搭建 | Unstoppable</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Unstoppable">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="目标 —— 使用 面相对象 设计 飞机大战游戏类 目标 明确主程序职责 实现主程序类 准备游戏精灵组">
+<meta name="keywords" content="python,game">
+<meta property="og:type" content="article">
+<meta property="og:title" content="项目实战 -- 游戏框架搭建">
+<meta property="og:url" content="http://yoursite.com/2019/05/17/游戏框架搭建/index.html">
 <meta property="og:site_name" content="Unstoppable">
+<meta property="og:description" content="目标 —— 使用 面相对象 设计 飞机大战游戏类 目标 明确主程序职责 实现主程序类 准备游戏精灵组">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2019/05/17/游戏框架搭建/009_游戏主程序.png">
+<meta property="og:image" content="http://yoursite.com/2019/05/17/游戏框架搭建/011_程序文件职责.png">
+<meta property="og:image" content="http://yoursite.com/2019/05/17/游戏框架搭建/010_精灵组确定.png">
+<meta property="og:updated_time" content="2019-05-17T14:49:23.178Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Unstoppable">
+<meta name="twitter:title" content="项目实战 -- 游戏框架搭建">
+<meta name="twitter:description" content="目标 —— 使用 面相对象 设计 飞机大战游戏类 目标 明确主程序职责 实现主程序类 准备游戏精灵组">
+<meta name="twitter:image" content="http://yoursite.com/2019/05/17/游戏框架搭建/009_游戏主程序.png">
   
     <link rel="alternative" href="/atom.xml" title="Unstoppable" type="application/atom+xml">
   
@@ -169,457 +178,18 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-pygame快速入门" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-游戏框架搭建" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
-        
-        <a href="/2019/05/17/pygame快速入门/" class="archive-article-date">
-  	<time datetime="2019-05-17T01:53:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/pygame快速入门/">pygame快速入门</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol>
-<li>项目准备</li>
-<li>使用 <code>pygame</code> 创建图形窗口</li>
-<li>理解 <strong>图像</strong> 并实现图像绘制</li>
-<li>理解 <strong>游戏循环</strong> 和 <strong>游戏时钟</strong></li>
-<li>理解 <strong>精灵</strong> 和 <strong>精灵组</strong></li>
-</ol>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-        <div class="article-pop-out tagcloud">
-          <i class="icon-tuding"></i>
-          <a class="article-tag-list-link color3">置顶</a>
-        </div>
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/pygame快速入门/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-碰撞检测" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <a href="/2019/05/17/碰撞检测/" class="archive-article-date">
-  	<time datetime="2019-05-17T14:17:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/碰撞检测/">项目实战 -- 碰撞检测</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ul>
-<li>了解碰撞检测方法</li>
-<li>碰撞实现</li>
-</ul>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">game</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/碰撞检测/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-英雄登场" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <a href="/2019/05/17/英雄登场/" class="archive-article-date">
-  	<time datetime="2019-05-17T14:17:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/英雄登场/">项目实战 -- 英雄登场</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ul>
-<li>设计 <strong>英雄</strong> 和 <strong>子弹</strong> 类</li>
-<li>使用 <code>pygame.key.get_pressed()</code> 移动英雄</li>
-<li>发射子弹</li>
-</ul>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">game</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/英雄登场/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-敌机出场" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <a href="/2019/05/17/敌机出场/" class="archive-article-date">
-  	<time datetime="2019-05-17T14:17:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/敌机出场/">项目实战 -- 敌机出场</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ul>
-<li>使用 <strong>定时器</strong> 添加敌机</li>
-<li>设计 <code>Enemy</code> 类</li>
-</ul>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">game</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/敌机出场/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-游戏背景" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <a href="/2019/05/17/游戏背景/" class="archive-article-date">
-  	<time datetime="2019-05-17T14:17:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/游戏背景/">项目实战 -- 游戏背景</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ul>
-<li>背景交替滚动的思路确定</li>
-<li>显示游戏背景</li>
-</ul>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">game</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/游戏背景/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-游戏框架搭建" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
+          <br>
+          <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+          <span class="icon-sort"></span>
+          <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+                    阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+          </span>
+          </a>
         
         
         <a href="/2019/05/17/游戏框架搭建/" class="archive-article-date">
@@ -632,8 +202,8 @@
       
       <center><p>
   
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/游戏框架搭建/">项目实战 -- 游戏框架搭建</a>
+    </p><h1 class="article-title_code_ant" itemprop="name">
+      项目实战 -- 游戏框架搭建
     </h1>
   
 <p></p></center>
@@ -644,102 +214,192 @@
 <li>实现主程序类</li>
 <li>准备游戏精灵组</li>
 </ul>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">game</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/游戏框架搭建/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-项目实战-飞机大战" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <a href="/2019/05/17/项目实战-飞机大战/" class="archive-article-date">
-  	<time datetime="2019-05-17T14:17:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/17/项目实战-飞机大战/">项目实战 -- 飞机大战</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ul>
-<li>强化 <strong>面向对象</strong> 程序设计</li>
-<li>体验使用 <code>pygame</code> 模块进行 <strong>游戏开发</strong></li>
+<a id="more"></a>
+<h2 id="01-明确主程序职责"><a href="#01-明确主程序职责" class="headerlink" title="01. 明确主程序职责"></a>01. 明确主程序职责</h2><ul>
+<li>回顾 <strong>快速入门案例</strong>，一个游戏主程序的 <strong>职责</strong> 可以分为两个部分：<ul>
+<li>游戏初始化</li>
+<li>游戏循环</li>
 </ul>
-        
+</li>
+<li>根据明确的职责，设计 <code>PlaneGame</code> 类如下：</li>
+</ul>
+<p><img src="/2019/05/17/游戏框架搭建/009_游戏主程序.png" alt="009_游戏主程序-w600"></p>
+<blockquote>
+<p><strong>提示</strong> 根据 <strong>职责</strong> 封装私有方法，可以避免某一个方法的代码写得太过冗长</p>
+<p>如果某一个方法编写的太长，既不好阅读，也不好维护！</p>
+</blockquote>
+<ul>
+<li><strong>游戏初始化</strong> ——  <code>__init__()</code> 会调用以下方法： </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>__create_sprites(self)</code></td>
+<td>创建所有精灵和精灵组</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>游戏循环</strong> —— <code>start_game()</code> 会调用以下方法：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>职责</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>__event_handler(self)</code></td>
+<td>事件监听</td>
+</tr>
+<tr>
+<td><code>__check_collide(self)</code></td>
+<td>碰撞检测 —— 子弹销毁敌机、敌机撞毁英雄</td>
+</tr>
+<tr>
+<td><code>__update_sprites(self)</code></td>
+<td>精灵组更新和绘制</td>
+</tr>
+<tr>
+<td><code>__game_over()</code></td>
+<td>游戏结束</td>
+</tr>
+</tbody>
+</table>
+<h2 id="02-实现飞机大战主游戏类"><a href="#02-实现飞机大战主游戏类" class="headerlink" title="02. 实现飞机大战主游戏类"></a>02. 实现飞机大战主游戏类</h2><h3 id="2-1-明确文件职责"><a href="#2-1-明确文件职责" class="headerlink" title="2.1 明确文件职责"></a>2.1 明确文件职责</h3><p><img src="/2019/05/17/游戏框架搭建/011_程序文件职责.png" alt="011_程序文件职责-w479"></p>
+<ul>
+<li><code>plane_main</code> <ol>
+<li>封装 <strong>主游戏类</strong></li>
+<li>创建 <strong>游戏对象</strong></li>
+<li><strong>启动游戏</strong></li>
+</ol>
+</li>
+<li><code>plane_sprites</code><ul>
+<li>封装游戏中 <strong>所有</strong> 需要使用的 <strong>精灵子类</strong></li>
+<li>提供游戏的 <strong>相关工具</strong></li>
+</ul>
+</li>
+</ul>
+<h4 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h4><ul>
+<li>新建 <code>plane_main.py</code> 文件，并且设置为可执行</li>
+<li>编写 <strong>基础代码</strong></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pygame</span><br><span class="line"><span class="keyword">from</span> plane_sprites <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PlaneGame</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="string">"""飞机大战主游戏"""</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">        print(<span class="string">"游戏初始化"</span>)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">start_game</span><span class="params">(self)</span>:</span></span><br><span class="line">        print(<span class="string">"开始游戏..."</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="comment"># 创建游戏对象</span></span><br><span class="line">    game = PlaneGame()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 开始游戏</span></span><br><span class="line">    game.start_game()</span><br></pre></td></tr></table></figure>
+<h3 id="2-3-游戏初始化部分"><a href="#2-3-游戏初始化部分" class="headerlink" title="2.3 游戏初始化部分"></a>2.3 游戏初始化部分</h3><ul>
+<li>完成 <code>__init__()</code> 代码如下：</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">    print(<span class="string">"游戏初始化"</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1. 创建游戏的窗口</span></span><br><span class="line">    self.screen = pygame.display.set_mode((<span class="number">480</span>, <span class="number">700</span>))</span><br><span class="line">    <span class="comment"># 2. 创建游戏的时钟</span></span><br><span class="line">    self.clock = pygame.time.Clock()</span><br><span class="line">    <span class="comment"># 3. 调用私有方法，精灵和精灵组的创建</span></span><br><span class="line">    self.__create_sprites()</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__create_sprites</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+<h4 id="使用-常量-代替固定的数值"><a href="#使用-常量-代替固定的数值" class="headerlink" title="使用 常量 代替固定的数值"></a>使用 常量 代替固定的数值</h4><blockquote>
+<ul>
+<li>常量 —— 不变化的量</li>
+<li>变量 —— 可以变化的量</li>
+</ul>
+</blockquote>
+<p><strong>应用场景</strong></p>
+<ul>
+<li>在开发时，可能会需要使用 <strong>固定的数值</strong>，例如 <strong>屏幕的高度</strong> 是 <code>700</code></li>
+<li>这个时候，建议 <strong>不要</strong> 直接使用固定数值，而应该使用 <strong>常量</strong></li>
+<li>在开发时，为了保证代码的可维护性，尽量不要使用 <strong>魔法数字</strong> </li>
+</ul>
+<p><strong>常量的定义</strong></p>
+<ul>
+<li>定义 <strong>常量</strong> 和 定义 <strong>变量</strong> 的语法完全一样，都是使用 <strong>赋值语句</strong></li>
+<li><strong>常量</strong> 的 <strong>命名</strong> 应该 <strong>所有字母都使用大写</strong>，<strong>单词与单词之间使用下划线连接</strong></li>
+</ul>
+<p><strong>常量的好处</strong></p>
+<ul>
+<li>阅读代码时，通过 <strong>常量名</strong> <strong>见名之意</strong>，不需要猜测数字的含义</li>
+<li>如果需要 <strong>调整值</strong>，只需要 <strong>修改常量定义</strong> 就可以实现 <strong>统一修改</strong></li>
+</ul>
+<blockquote>
+<p>提示：Python 中并没有真正意义的常量，只是通过命名的约定 —— 所有字母都是大写的就是常量，开发时不要轻易的修改！</p>
+</blockquote>
+<p><strong>代码调整</strong></p>
+<ul>
+<li>在 <code>plane_sprites.py</code> 中增加常量定义</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pygame</span><br><span class="line"></span><br><span class="line"><span class="comment"># 游戏屏幕大小</span></span><br><span class="line">SCREEN_RECT = pygame.Rect(<span class="number">0</span>, <span class="number">0</span>, <span class="number">480</span>, <span class="number">700</span>)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>修改 <code>plane_main.py</code> 中的窗口大小</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">self.screen = pygame.display.set_mode(SCREEN_RECT.size)</span><br></pre></td></tr></table></figure>
+<h3 id="2-4-游戏循环部分"><a href="#2-4-游戏循环部分" class="headerlink" title="2.4 游戏循环部分"></a>2.4 游戏循环部分</h3><ul>
+<li>完成 <code>start_game()</code> 基础代码如下：</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">start_game</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="string">"""开始游戏"""</span></span><br><span class="line">    </span><br><span class="line">    print(<span class="string">"开始游戏..."</span>)</span><br><span class="line">       </span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    </span><br><span class="line">        <span class="comment"># 1. 设置刷新帧率</span></span><br><span class="line">        self.clock.tick(<span class="number">60</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 2. 事件监听</span></span><br><span class="line">        self.__event_handler()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 3. 碰撞检测</span></span><br><span class="line">        self.__check_collide()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 4. 更新精灵组</span></span><br><span class="line">        self.__update_sprites()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 5. 更新屏幕显示</span></span><br><span class="line">        pygame.display.update()</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__event_handler</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="string">"""事件监听"""</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> event <span class="keyword">in</span> pygame.event.get():</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">if</span> event.type == pygame.QUIT:</span><br><span class="line">            PlaneGame.__game_over()</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__check_collide</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="string">"""碰撞检测"""</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__update_sprites</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="string">"""更新精灵组"""</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line">    </span><br><span class="line"><span class="meta">@staticmethod</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__game_over</span><span class="params">()</span>:</span></span><br><span class="line">   <span class="string">"""游戏结束"""</span></span><br><span class="line"></span><br><span class="line">   print(<span class="string">"游戏结束"</span>)</span><br><span class="line">   pygame.quit()</span><br><span class="line">   exit()</span><br></pre></td></tr></table></figure>
+<h2 id="03-准备游戏精灵组"><a href="#03-准备游戏精灵组" class="headerlink" title="03. 准备游戏精灵组"></a>03. 准备游戏精灵组</h2><h3 id="3-1-确定精灵组"><a href="#3-1-确定精灵组" class="headerlink" title="3.1 确定精灵组"></a>3.1 确定精灵组</h3><p><img src="/2019/05/17/游戏框架搭建/010_精灵组确定.png" alt="010_精灵组确定-w600"></p>
+<h3 id="3-2-代码实现"><a href="#3-2-代码实现" class="headerlink" title="3.2 代码实现"></a>3.2 代码实现</h3><ul>
+<li>创建精灵组方法</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__create_sprites</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="string">"""创建精灵组"""</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 背景组</span></span><br><span class="line">    self.back_group = pygame.sprite.Group()</span><br><span class="line">    <span class="comment"># 敌机组</span></span><br><span class="line">    self.enemy_group = pygame.sprite.Group()</span><br><span class="line">    <span class="comment"># 英雄组</span></span><br><span class="line">    self.hero_group = pygame.sprite.Group()</span><br></pre></td></tr></table></figure>
+<ul>
+<li>更新精灵组方法</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__update_sprites</span><span class="params">(self)</span>:</span></span><br><span class="line">    <span class="string">"""更新精灵组"""</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> group <span class="keyword">in</span> [self.back_group, self.enemy_group, self.hero_group]:</span><br><span class="line">    </span><br><span class="line">        group.update()</span><br><span class="line">        group.draw(self.screen)</span><br></pre></td></tr></table></figure>
+
       
 
       
       
-        <div class="declare" hidden="hidden"></div>
+        <div class="declare">
+          <strong>本文作者：</strong>
+          
+            Zhenqian Wang
+          
+          <br>
+          <strong>本文链接：</strong>
+          http://yoursite.com/2019/05/17/游戏框架搭建/
+          <br>
+          <strong>版权声明：</strong>
+          本作品采用
+          <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+          进行许可。转载请注明出处！
+          
+            <br>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+          
+        </div>
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢大佬打赏!<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/alipay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/wechatpay.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -763,16 +423,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/17/项目实战-飞机大战/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/17/游戏框架搭建/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2019/05/17/游戏背景/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          项目实战 -- 游戏背景
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/05/17/项目实战-飞机大战/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">项目实战 -- 飞机大战</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -787,98 +515,50 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇博客文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-        
-        <a href="/2019/05/16/我的第一篇博客文章/" class="archive-article-date">
-  	<time datetime="2019-05-16T05:17:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-16</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      <center><p>
-  
-    </p><h1 itemprop="name">
-      <a class="article-title_code_ant" href="/2019/05/16/我的第一篇博客文章/">我的第一篇博客文章</a>
-    </h1>
-  
-<p></p></center>
-      
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">"en"</span>&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"UTF-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;&lt;/title&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        alert(<span class="string">"小亚可啊"</span>);<span class="comment">/*在浏览器窗口弹出一个警告框*/</span></span><br><span class="line">        <span class="built_in">document</span>.write(<span class="string">"真帅！"</span>);<span class="comment">/*文档显示，向body中输出一个内容*/</span></span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">"巴拉巴拉"</span>);<span class="comment">/*向控制台输出一个内容*/</span></span><br><span class="line">        <span class="comment">/*从上到下依次执行*/</span></span><br><span class="line">    &lt;<span class="regexp">/script&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;<span class="regexp">/body&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>html&gt;</span><br></pre></td></tr></table></figure>
-        
-      
-
-      
-      
-        <div class="declare" hidden="hidden"></div>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">html</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">amusement</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/16/我的第一篇博客文章/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#目标"><span class="toc-number">1.</span> <span class="toc-text">目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#01-明确主程序职责"><span class="toc-number">2.</span> <span class="toc-text">01. 明确主程序职责</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#02-实现飞机大战主游戏类"><span class="toc-number">3.</span> <span class="toc-text">02. 实现飞机大战主游戏类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-明确文件职责"><span class="toc-number">3.1.</span> <span class="toc-text">2.1 明确文件职责</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#代码实现"><span class="toc-number">3.1.1.</span> <span class="toc-text">代码实现</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-游戏初始化部分"><span class="toc-number">3.2.</span> <span class="toc-text">2.3 游戏初始化部分</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#使用-常量-代替固定的数值"><span class="toc-number">3.2.1.</span> <span class="toc-text">使用 常量 代替固定的数值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-游戏循环部分"><span class="toc-number">3.3.</span> <span class="toc-text">2.4 游戏循环部分</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#03-准备游戏精灵组"><span class="toc-number">4.</span> <span class="toc-text">03. 准备游戏精灵组</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-确定精灵组"><span class="toc-number">4.1.</span> <span class="toc-text">3.1 确定精灵组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-代码实现"><span class="toc-number">4.2.</span> <span class="toc-text">3.2 代码实现</span></a></li></ol></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
 
+    
+      <section id="comments" style="margin:10px;padding:10px;background:#fff;">
+        <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'false' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "81kKRp1yy3NbIuzKqwBQ0o5x-gzGzoHsz",
+            app_key: "m2kCRUL2rH34phxjLpr7e7Iw",
+            placeholder: "Just go go",
+            avatar:"mm"
+        });
+    }
+</script>
+      </section>
+    
+
   
+
   
 
 
@@ -918,8 +598,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
