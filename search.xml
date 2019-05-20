@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[如何csdn复制他人博客文章到自己博客下]]></title>
+    <url>%2F2019%2F05%2F20%2F%E5%A6%82%E4%BD%95csdn%E5%A4%8D%E5%88%B6%E4%BB%96%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%B0%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E4%B8%8B%2F</url>
+    <content type="text"><![CDATA[前言对于喜欢逛CSDN的人来说，看别人的博客确实能够对自己有不小的提高，有时候看到特别好的博客想转载下载，但是不能一个字一个字的敲了，这时候我们就想快速转载别人的博客，把别人的博客移到自己的空间里面，当然有人会说我们可以收藏博客啊，就不需要转载，(⊙o⊙)… 也对。。 实现 因为我自己当初想转载的时候却不知道该怎么转载，所以学会了之后就把方法写出来，帮助那些想转载却不知道该怎么转载的人（大神勿笑）。 首先我们用谷歌浏览器chrome打开要转载的博客，然后鼠标右键就会出现下面的菜单： 我们点击【检查】，就会出现当前HTML页面的代码，如下： 我们选中“article_content”从图片左边我们也可以看到，博客的内容已经被我们选中了，也就是我们想要转载的内容，然后右键，就会出现下面的菜单： 我们选中【Copy element】就可以把其中要转载的内容复制下来，接下来的就是粘贴了。 我们先新建一篇文章，打开markdown编辑器（因为在普通的编辑器我没有找到方法/(ㄒoㄒ)/~~），然后粘贴一下，就会出现下面的内容： 可以在右边看到，博客内容已经被转载了，然后发表就可以了。 最后特别要注意的是，我们发表的时候一定要选择【转载】，尊重原创！！ 转自：https://jingyan.baidu.com/article/0964eca24e159c8285f53618.html]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo d 部署后总需要重新改域名解决]]></title>
+    <url>%2F2019%2F05%2F20%2Fhexo-d-%E9%83%A8%E7%BD%B2%E5%90%8E%E6%80%BB%E9%9C%80%E8%A6%81%E9%87%8D%E6%96%B0%E6%94%B9%E5%9F%9F%E5%90%8D%E8%A7%A3%E5%86%B3%2F</url>
+    <content type="text"><![CDATA[1、在source目录下（不是hexo根目录下），创建一个CNAME文件，可以用sublime创建，然后去掉后缀名更为准确！也可参考：https://blog.csdn.net/qq_38332436/article/details/81907686 CNAME文件里写自己新的域名哎2、hexo g 重新生成一下3、hexo d 部署到github上4、完成]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[文章写作技巧]]></title>
     <url>%2F2019%2F05%2F20%2F1%2F</url>
     <content type="text"><![CDATA[开头+3PEEEL+结尾PEEEL P：point （段落内容的）观点 E：explanation解释观点→step by step一步一步地阐述、分析你的观点，形成一个chains of analysis（分析的链接？） E：example 例子解释（生活实际的）例子，表明你的观点在真实生活中是会发生的！ E：evaluation举个反例，阐述与自己观点相违背的观点（例如：说实话，有些人可能认为我说的是错的balabala） L：link解释下你的内容与题目的联系，连回题目（告诉考官你没有跑题，你的内容紧密联系论文题目），类似首尾呼应。 一篇议论文可以由开头结尾加中间3段PEEEL结构组成。]]></content>

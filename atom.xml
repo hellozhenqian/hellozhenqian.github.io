@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhenqian.wang/"/>
-  <updated>2019-05-20T02:32:41.140Z</updated>
+  <updated>2019-05-20T12:10:30.445Z</updated>
   <id>https://www.zhenqian.wang/</id>
   
   <author>
@@ -17,11 +17,55 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>如何csdn复制他人博客文章到自己博客下</title>
+    <link href="https://www.zhenqian.wang/2019/05/20/%E5%A6%82%E4%BD%95csdn%E5%A4%8D%E5%88%B6%E4%BB%96%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%B0%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E4%B8%8B/"/>
+    <id>https://www.zhenqian.wang/2019/05/20/如何csdn复制他人博客文章到自己博客下/</id>
+    <published>2019-05-20T07:54:12.000Z</published>
+    <updated>2019-05-20T12:10:30.445Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo d 部署后总需要重新改域名解决</title>
+    <link href="https://www.zhenqian.wang/2019/05/20/hexo-d-%E9%83%A8%E7%BD%B2%E5%90%8E%E6%80%BB%E9%9C%80%E8%A6%81%E9%87%8D%E6%96%B0%E6%94%B9%E5%9F%9F%E5%90%8D%E8%A7%A3%E5%86%B3/"/>
+    <id>https://www.zhenqian.wang/2019/05/20/hexo-d-部署后总需要重新改域名解决/</id>
+    <published>2019-05-20T07:51:06.000Z</published>
+    <updated>2019-05-20T12:05:54.325Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>文章写作技巧</title>
     <link href="https://www.zhenqian.wang/2019/05/20/1/"/>
     <id>https://www.zhenqian.wang/2019/05/20/1/</id>
     <published>2019-05-20T02:05:43.000Z</published>
-    <updated>2019-05-20T02:32:41.140Z</updated>
+    <updated>2019-05-20T08:29:46.621Z</updated>
     
     <summary type="html">
     
@@ -239,7 +283,7 @@
     <link href="https://www.zhenqian.wang/2019/05/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
     <id>https://www.zhenqian.wang/2019/05/16/我的第一篇博客文章/</id>
     <published>2019-05-16T05:17:04.000Z</published>
-    <updated>2019-05-20T02:31:01.147Z</updated>
+    <updated>2019-05-20T08:27:42.353Z</updated>
     
     <summary type="html">
     
