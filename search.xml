@@ -11,6 +11,11 @@
     <content type="text"><![CDATA[1、在source目录下（不是hexo根目录下），创建一个CNAME文件，可以用sublime创建，然后去掉后缀名更为准确！也可参考：https://blog.csdn.net/qq_38332436/article/details/81907686 CNAME文件里写自己新的域名2、hexo g 重新生成一下3、hexo d 部署到github上4、完成]]></content>
   </entry>
   <entry>
+    <title><![CDATA[hexo d 部署后总需要重新改域名解决方案]]></title>
+    <url>%2F2019%2F05%2F20%2Fhexo-d-%E9%83%A8%E7%BD%B2%E5%90%8E%E6%80%BB%E9%9C%80%E8%A6%81%E9%87%8D%E6%96%B0%E6%94%B9%E5%9F%9F%E5%90%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[1、在source目录下（不是hexo根目录下），创建一个CNAME文件，可以用sublime创建，然后去掉后缀名更为准确！也可参考：https://blog.csdn.net/qq_38332436/article/details/81907686 CNAME文件里写自己新的域名2、hexo g 重新生成一下3、hexo d 部署到github上4、完成]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[文章写作技巧]]></title>
     <url>%2F2019%2F05%2F20%2F1%2F</url>
     <content type="text"><![CDATA[开头+3PEEEL+结尾PEEEL P：point （段落内容的）观点 E：explanation解释观点→step by step一步一步地阐述、分析你的观点，形成一个chains of analysis（分析的链接？） E：example 例子解释（生活实际的）例子，表明你的观点在真实生活中是会发生的！ E：evaluation举个反例，阐述与自己观点相违背的观点（例如：说实话，有些人可能认为我说的是错的balabala） L：link解释下你的内容与题目的联系，连回题目（告诉考官你没有跑题，你的内容紧密联系论文题目），类似首尾呼应。 一篇议论文可以由开头结尾加中间3段PEEEL结构组成。]]></content>
