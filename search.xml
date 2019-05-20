@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[文章写作技巧]]></title>
+    <url>%2F2019%2F05%2F20%2F1%2F</url>
+    <content type="text"><![CDATA[#开头+3PEEEL+结尾 ##PEEEL P：point （段落内容的）观点 E：explanation解释观点→step by step一步一步地阐述、分析你的观点，形成一个chains of analysis（分析的链接？） E：example 例子解释（生活实际的）例子，表明你的观点在真实生活中是会发生的！ E：evaluation举个反例，阐述与自己观点相违背的观点（例如：说实话，有些人可能认为我说的是错的balabala） L：link解释下你的内容与题目的联系，连回题目（告诉考官你没有跑题，你的内容紧密联系论文题目），类似首尾呼应。 一篇议论文可以由开头结尾加中间3段PEEEL结构组成。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[项目实战 -- 碰撞检测]]></title>
     <url>%2F2019%2F05%2F17%2F%E7%A2%B0%E6%92%9E%E6%A3%80%E6%B5%8B%2F</url>
     <content type="text"><![CDATA[目标 了解碰撞检测方法 碰撞实现 01. 了解碰撞检测方法 pygame 提供了 两个非常方便 的方法可以实现碰撞检测： pygame.sprite.groupcollide() 两个精灵组 中 所有的精灵 的碰撞检测 1groupcollide(group1, group2, dokill1, dokill2, collided = None) -&gt; Sprite_dict 如果将 dokill 设置为 True，则 发生碰撞的精灵将被自动移除 collided 参数是用于 计算碰撞的回调函数 如果没有指定，则每个精灵必须有一个 rect 属性 pygame.sprite.spritecollide() 判断 某个精灵 和 指定精灵组 中的精灵的碰撞 1spritecollide(sprite, group, dokill, collided = None) -&gt; Sprite_list 如果将 dokill 设置为 True，则 指定精灵组 中 发生碰撞的精灵将被自动移除 collided 参数是用于 计算碰撞的回调函数 如果没有指定，则每个精灵必须有一个 rect 属性 返回 精灵组 中跟 精灵 发生碰撞的 精灵列表 02. 碰撞实现12345678910111213141516def __check_collide(self): # 1. 子弹摧毁敌机 pygame.sprite.groupcollide(self.hero.bullets, self.enemy_group, True, True) # 2. 敌机撞毁英雄 enemies = pygame.sprite.spritecollide(self.hero, self.enemy_group, True) # 判断列表时候有内容 if len(enemies) &gt; 0: # 让英雄牺牲 self.hero.kill() # 结束游戏 PlaneGame.__game_over()]]></content>

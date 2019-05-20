@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhenqian.wang/"/>
-  <updated>2019-05-18T07:34:35.910Z</updated>
+  <updated>2019-05-20T02:18:27.887Z</updated>
   <id>https://www.zhenqian.wang/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>文章写作技巧</title>
+    <link href="https://www.zhenqian.wang/2019/05/20/1/"/>
+    <id>https://www.zhenqian.wang/2019/05/20/1/</id>
+    <published>2019-05-20T02:05:43.000Z</published>
+    <updated>2019-05-20T02:18:27.887Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>项目实战 -- 碰撞检测</title>
