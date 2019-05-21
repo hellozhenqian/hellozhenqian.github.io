@@ -2003,7 +2003,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff6ff;
+  background: #f0ff58;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3301,15 +3301,15 @@ pre .javascript .function {
     margin: 8px 0 0;
   }
 }
-.post-body a {
-  color: #0593d3;
-  border-bottom: none;
-  border-bottom: 1px solid #0593d3;
+.post-body .btn {
+  border: none;
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(244,67,54,0.831);
+  color: #fff;
 }
-.post-body a:hover {
-  color: #fc6423;
-  border-bottom: none;
-  border-bottom: 1px solid #fc6423;
+.post-body .btn:hover {
+  color: #0f0;
+  background-color: #00f;
 }
 code {
   color: #ff7600;
