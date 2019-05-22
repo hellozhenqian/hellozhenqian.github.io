@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.zhenqian.wang/"/>
-  <updated>2019-05-21T07:19:03.261Z</updated>
+  <updated>2019-05-22T02:44:14.380Z</updated>
   <id>https://www.zhenqian.wang/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>复制转发CSDN博客快捷方法</title>
-    <link href="https://www.zhenqian.wang/2019/05/20/%E5%A4%8D%E5%88%B6%E8%BD%AC%E5%8F%91CSDN%E5%8D%9A%E5%AE%A2%E5%BF%AB%E6%8D%B7%E6%96%B9%E6%B3%95/"/>
-    <id>https://www.zhenqian.wang/2019/05/20/复制转发CSDN博客快捷方法/</id>
-    <published>2019-05-20T07:54:12.000Z</published>
-    <updated>2019-05-21T07:19:03.261Z</updated>
+    <title>github博客hexo-next主题配置百度站点收录管理</title>
+    <link href="https://www.zhenqian.wang/2019/05/22/github%E5%8D%9A%E5%AE%A2hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E7%99%BE%E5%BA%A6%E7%AB%99%E7%82%B9%E6%94%B6%E5%BD%95%E7%AE%A1%E7%90%86/"/>
+    <id>https://www.zhenqian.wang/2019/05/22/github博客hexo-next主题配置百度站点收录管理/</id>
+    <published>2019-05-22T02:41:33.000Z</published>
+    <updated>2019-05-22T02:44:14.380Z</updated>
     
     <summary type="html">
     
@@ -34,6 +34,32 @@
       
     
     </summary>
+    
+      <category term="set up a blog" scheme="https://www.zhenqian.wang/categories/set-up-a-blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>复制转发CSDN博客快捷方法</title>
+    <link href="https://www.zhenqian.wang/2019/05/20/%E5%A4%8D%E5%88%B6%E8%BD%AC%E5%8F%91CSDN%E5%8D%9A%E5%AE%A2%E5%BF%AB%E6%8D%B7%E6%96%B9%E6%B3%95/"/>
+    <id>https://www.zhenqian.wang/2019/05/20/复制转发CSDN博客快捷方法/</id>
+    <published>2019-05-20T07:54:12.000Z</published>
+    <updated>2019-05-22T02:45:09.951Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="set up a blog" scheme="https://www.zhenqian.wang/categories/set-up-a-blog/"/>
     
     
   </entry>
@@ -43,7 +69,7 @@
     <link href="https://www.zhenqian.wang/2019/05/20/hexo-d-%E9%83%A8%E7%BD%B2%E5%90%8E%E6%80%BB%E9%9C%80%E8%A6%81%E9%87%8D%E6%96%B0%E6%94%B9%E5%9F%9F%E5%90%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://www.zhenqian.wang/2019/05/20/hexo-d-部署后总需要重新改域名解决方案/</id>
     <published>2019-05-20T07:51:06.000Z</published>
-    <updated>2019-05-21T00:54:08.875Z</updated>
+    <updated>2019-05-22T02:44:42.115Z</updated>
     
     <summary type="html">
     
@@ -56,6 +82,8 @@
       
     
     </summary>
+    
+      <category term="set up a blog" scheme="https://www.zhenqian.wang/categories/set-up-a-blog/"/>
     
     
   </entry>
